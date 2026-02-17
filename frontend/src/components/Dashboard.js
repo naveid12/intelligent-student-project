@@ -78,12 +78,12 @@ function Dashboard() {
 
         <div className="col-md-6">
           <div className="card p-4 bg-light border-0 shadow text-center">
-            <h3>Predicted GPA</h3>
+            <h3>Predicted Percentage</h3>
             <h1 className="display-1 text-success font-weight-bold">
-              {prediction}
+              {prediction}%
             </h1>
             <div className="progress mt-3">
-              <div className="progress-bar bg-success" style={{ width: `${(prediction/4)*100}%` }}></div>
+              <div className="progress-bar bg-success" style={{ width: `${prediction}%` }}></div>
             </div>
           </div>
         </div>
